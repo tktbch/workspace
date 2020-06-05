@@ -2,6 +2,9 @@
 **/node_modules/**
 **/.next
 common
+auth
+client
+
 # Logs
 logs
 *.log
