@@ -1,10 +1,9 @@
 import express, {Request, Response} from 'express';
 import { body } from "express-validator";
 import jwt from 'jsonwebtoken';
-import {validateRequest} from "../middlewares/validate-request";
-import {BadRequestError} from "../errors/bad-request-error";
 import {PasswordHashUtil} from "../utils/password-hash-util";
 import {User} from "../models/user";
+import {BadRequestError, validateRequest} from "@tktbitch/common";
 
 const router = express.Router();
 router.post('/api/users/signin', [

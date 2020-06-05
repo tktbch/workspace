@@ -1,6 +1,7 @@
 .idea
 **/node_modules/**
 **/.next
+common
 # Logs
 logs
 *.log
