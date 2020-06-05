@@ -4,6 +4,7 @@
 common
 auth
 client
+tickets
 
 # Logs
 logs
