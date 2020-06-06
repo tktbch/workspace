@@ -5,7 +5,9 @@ common
 auth
 client
 tickets
+orders
 
+.DS_Store
 # Logs
 logs
 *.log
