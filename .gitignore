@@ -6,6 +6,8 @@ auth
 client
 tickets
 orders
+expiration
+payments
 
 .DS_Store
 # Logs
@@ -124,3 +126,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/expiration/node_modules/
