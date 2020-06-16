@@ -1,0 +1,30 @@
+{
+  "name": "@tktbch/common",
+  "version": "1.0.13",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "yarn clean && tsc",
+    "pub": "git add . && git commit -m \"Some updates\" && npm version patch && yarn build && npm publish"
+  },
+  "dependencies": {
+    "@types/cookie-session": "^2.0.40",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-nats-streaming": "^0.3.2"
+  },
+  "devDependencies": {
+    "del-cli": "^3.0.1",
+    "typescript": "^3.9.3"
+  }
+}
