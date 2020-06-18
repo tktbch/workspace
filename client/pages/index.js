@@ -12,7 +12,7 @@ const LandingPage = ({ tickets, title }) => {
 
     return (
         <div>
-            <h2>{title}</h2>
+            <h1>{title}</h1>
             <table className="table">
                 <thead>
                 <tr>
